@@ -12,23 +12,24 @@
 	<table border="1" cellspacing="0" cellpadding="0" width="500">
 		<form action="write">
 			<tr>
-				<td>이  름</td>
+				<td>이 름</td>
 				<td><input type="text" name="bname" size="60"></td>
 			</tr>
 			<tr>
-				<td>제  목</td>
+				<td>제 목</td>
 				<td><input type="text" name="btitle" size="60"></td>
 			</tr>
 			<tr>
-				<td>내  용</td>
-				<td><textarea rows="10" cols="60" name="bcontent"></textarea>
+				<td>내 용</td>
+				<td><textarea rows="10" cols="50" name="bcontent"></textarea></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="right">
-				<input type="submit" value="글입력">&nbsp;&nbsp;&nbsp;
-				<input type="button" value="글목록" onclick="script:window.location.href='list'">
+					<input type="submit" value="글입력">&nbsp;&nbsp;&nbsp;
+					<input type="button" value="글목록" onclick="script:window.location.href='list'">				
+				</td>				
 			</tr>
 		</form>	
-	</table>	
+	</table>
 </body>
 </html>
